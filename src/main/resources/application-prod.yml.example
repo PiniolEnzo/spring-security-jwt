@@ -1,0 +1,24 @@
+spring:
+  profiles: # profile name
+
+  #DB Configuration
+  datasource:
+    url:
+    username:
+    password:
+    driver-class-name:
+
+  #JPA Configuration
+  jpa:
+    hibernate:
+      ddl-auto:
+    show-sql:
+    database-platform:
+
+  # Security Configuration
+  security:
+    jwt:
+      secret:
+      expiration:
+      header:
+      prefix:

@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: my-spring-boot-app
+  profiles:
+    active:  # dev, prod, test
